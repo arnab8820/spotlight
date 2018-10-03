@@ -1,0 +1,79 @@
+
+body{
+	background-color: #cfcfcf;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	:overflow: hidden;
+
+}
+
+.navbar{
+	background-color: rgba(0, 0, 0, 1);
+	border: 0px;
+	border-radius: 0px;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:hover, .navbar-inverse .navbar-nav .active a:focus{
+	color: #ff0;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.item-active img{
+	width: 100%;
+	margin-top: -10%;
+}
+
+.container{
+	margin-top: 15px; 
+}
+.red{
+	background-color: red;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.green{
+	background-color: green;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.member{
+	padding: 10px;
+	text-align: center;
+}
+
+.about-photo{
+	height: 200px;
+	width: 200px;
+}
+
+.name{
+	margin-top: 15px;
+	margin-bottom: 5px; 
+	color: white;
+	font-size: 20px;
+}
+
+.designation{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: white;
+	font-size: 15px;
+}
+
+.about-text{
+	margin: 20px;
+	font-size: 15px;
+	color: white;
+}
+

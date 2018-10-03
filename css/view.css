@@ -1,0 +1,75 @@
+body{
+	background-color: #cfcfcf;
+}
+
+.navbar{
+	background-color: rgba(0, 0, 0, 1);
+	border: 0px;
+	border-radius: 0px;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:hover, .navbar-inverse .navbar-nav .active a:focus{
+	color: #ff0;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.video-container{
+  background-color: #fff;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.video{
+  :background-color: #f00;
+  position: relative;
+  overflow: hidden;
+  padding-top: 40%;
+}
+
+iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+h2{
+  font-size: 20px;
+
+}
+
+h1, h2, h3,  h4, h5, h6, h7{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+br{
+    margin: 0px;
+}
+
+.related-videos{
+	background-color: #fff;
+	margin: 0px 15px;
+	padding: 1px 10px;
+}
+
+.related-video-item{
+	padding: 10px;
+	cursor: pointer;
+	margin: 0px;
+}
+
+.related-video-item img{
+	width: 100%;
+	height: auto;
+}
+
+.related-video-item:hover{
+	border: 2px solid;
+	border-color: #00f;
+	background-color: rgba(0, 255, 255, 0.2);
+}

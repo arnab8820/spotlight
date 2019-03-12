@@ -1,0 +1,69 @@
+body{
+  background-image: url("../img/bg2.jpg");
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-color: #cfcfcf;
+}
+
+.content-area{
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+}
+
+.user-photo{
+  margin: 20px 0px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.welcome-msg{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+.user-panel{
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  height: 100%;
+}
+.detail{
+  color: white;
+  font-size: 18px;
+}
+
+.inf-form{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.input input, .input select{
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+  border-bottom: 2px solid;
+  border-color: #cfcfcf;
+  padding: 5px;
+  width: 100%;
+  color: #ff0;
+}
+input[type="file"]{
+  padding-top: 20px;
+  border: 0px;
+  width: 100px;
+}
+
+input::placeholder{
+  color: #ff0;
+}
+
+.user-option{
+  color: white;
+  padding: 0px;
+  margin: 10px;
+  text-align: left;
+}

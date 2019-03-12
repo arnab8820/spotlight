@@ -1,0 +1,88 @@
+body{
+	background-color: #ccc;
+	background-image: url("../img/login-bg.jpg");
+}
+
+nav{
+	width: 100%;
+	align-items: right;
+	align-content: right;
+}
+
+input{
+	color: yellow;
+	background-color: rgba(0, 0, 0, 0);
+	margin: 10px 0px 10px 0px;
+	width: 100%;
+	border: 0px;
+	border-bottom: 1px solid white;
+}
+
+input:focus{
+	border-color: red;
+	transition: 500;
+}
+
+.header{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+}
+
+.logo{
+	color: white;
+}
+
+.content-area{
+	margin: 10px;
+	margin-top: 10%;
+	height: 100%;
+}
+
+.login-section{
+	background-color: rgba(0, 0, 0, 0);
+	padding: 15px;
+}
+
+.login-header{
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.login-form{
+	display: block;
+	margin: 20px 10px 10px 10px;
+}
+
+.signup-form{
+	display: none;
+	margin: 20px 10px 10px 10px;
+}
+
+.submit-btn{
+	width: 100%;
+}
+
+.switch{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+
+.clock{
+	color: white;
+	font-size: 72px;
+}
+
+.date{
+	color: white;
+	font-size: 22px;
+}
+
+.welcome-text{
+	color: white;
+	font-size: 36px;
+	margin: 25px 0px 40px 0px;
+}
